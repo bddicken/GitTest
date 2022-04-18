@@ -12,5 +12,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Add a comment!
+
+        System.out.println("hi");
+    }
+
+    private void anotherFunction() {
+        System.out.println("another");
     }
 }
